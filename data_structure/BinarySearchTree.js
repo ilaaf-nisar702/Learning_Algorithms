@@ -63,6 +63,7 @@ class BinarySearchTree {
             callback(node.element);
         }
     }
+
     preOrderTraverse(callback) {
         this.preOrderTraverseNode(this.root, callback);
     }
